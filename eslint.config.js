@@ -1,7 +1,7 @@
 import standardish from './index.js'
 
 export default [
-  ...standardish,
+  standardish,
   {
     files: ['**/*.js', '*.js']
   }
